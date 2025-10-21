@@ -6,15 +6,15 @@ getgenv().LynixSettings = {
     --// ! Main ! \\--
     ['Owner'] = 'invisible9782',
     ['Position'] = 'Back', --Position Of Stand [Back | Left | Right]
-    ['CrewID'] = 2, --Must Be In Group For It To Work
+    ['CrewID'] = 0, --Must Be In Group For It To Work
     ['Attack'] = 'Heavy', --Heavy = Super Punch Light = Spam Punch [Heavy | Light]
-    ['StandMode'] = 'D4C', --[Star Platinum : OverHeaven | Star Platinum: The World | Star Platinum, Za Warudo! | TheWorld | Cmoon | King Crimson | Killer Queen | MIH | D4C]
-    ['FlyMode'] = 'Glide', --[Glide | Fly | Hover | Heaven | Swim]
+    ['StandMode'] = 'OverHeaven', --[Star Platinum : OverHeaven | Star Platinum: The World | Star Platinum, Za Warudo! | TheWorld | Cmoon | King Crimson | Killer Queen | MIH | D4C]
+    ['FlyMode'] = 'Heaven', --[Glide | Fly | Hover | Heaven | Swim]
     ['Prediction'] = 0.3, --Prediction For Attack Or Targetting
     ['GunPrediction'] = 0.037, --Prediction For Gun Kill
     ['AttackMode'] = 'Sky', --[Sky | Under] If [Sky] The Stand Will Attack Infront Of Then And If [Under] The Stand Will Attack In Underground
-    ['GunMode'] = 'Under', --[Sky | Under]  The Stand Will Shooting Just Like What In The Settings
-    ['Resolver'] = false, --[true | false] Turn On Or Off Resolver If Someone Using Anti Lock
+    ['GunMode'] = 'Sky', --[Sky | Under]  The Stand Will Shooting Just Like What In The Settings
+    ['Resolver'] = true, --[true | false] Turn On Or Off Resolver If Someone Using Anti Lock
     --// ! Misc ! \\--
     ['CustomSummon'] = 's', --Custom [Summon!] Text
     ['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much
@@ -29,7 +29,7 @@ getgenv().LynixSettings = {
     ['Alt'] = false,
     --//    ! Sounds !     \\--
     --\\ MUST HAVE BOOMBOX //--
-    ['Sounds'] = true,
+    ['Sounds'] = false,
     ['SummonMusic'] = true, --[true | false]
     ['CustomSong'] = 1839246711 --Enter A Song ID And Say 'Song!'
 }
@@ -210,9 +210,9 @@ getgenv().LynixSettings = {
         Stompnear = false
         Knockyes = false
         StopHoverAnim = false
-        follow = false
+        follow = true
         looking = false
-        noclip = false
+        noclip = true
         vanish = false
         bring = false
         Knocked = false
@@ -4048,3 +4048,4 @@ getgenv().LynixSettings = {
     end)
 
 end
+
