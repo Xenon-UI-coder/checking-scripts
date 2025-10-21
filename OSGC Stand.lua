@@ -4,7 +4,7 @@ getgenv()._=
 
 getgenv().LynixSettings = {
     --// ! Main ! \\--
-    ['Owner'] = 'ice146782',
+    ['Owner'] = 'invisible9782',
     ['Position'] = 'Back', --Position Of Stand [Back | Left | Right]
     ['CrewID'] = 2, --Must Be In Group For It To Work
     ['Attack'] = 'Heavy', --Heavy = Super Punch Light = Spam Punch [Heavy | Light]
@@ -4046,4 +4046,5 @@ getgenv().LynixSettings = {
             end
         end)
     end)
+
 end
